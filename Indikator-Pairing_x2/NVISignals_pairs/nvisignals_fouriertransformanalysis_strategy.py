@@ -1,0 +1,24 @@
+import backtrader as bt
+from ..base_strategy import FlexibleStrategy
+
+class NVISignals_FourierTransformAnalysis_Strategy(FlexibleStrategy):
+    """
+    Kombinierte Strategie von NVISignals und FourierTransformAnalysis
+    """
+    
+    params = (
+        ('indicators', {
+            'NVISignals': {
+                'class': NVISignals,
+                'params': <class 'backtrader.metabase.AutoInfoClass_LineRoot_LineMultiple_LineSeries_LineIterator_DataAccessor_IndicatorBase_Indicator_NVISignals'>
+            },
+            'FourierTransformAnalysis': {
+                'class': FourierTransformAnalysis,
+                'params': <class 'backtrader.metabase.AutoInfoClass_LineRoot_LineMultiple_LineSeries_LineIterator_DataAccessor_IndicatorBase_Indicator_FourierTransformAnalysis'>
+            }
+        }),
+        ('weights', {
+            'NVISignals': 1.0,
+            'FourierTransformAnalysis': 1.0
+        })
+    )

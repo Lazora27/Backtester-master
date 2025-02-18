@@ -1,0 +1,24 @@
+import backtrader as bt
+from ..base_strategy import FlexibleStrategy
+
+class GannSquareReversal_RainbowMovingAverage_Strategy(FlexibleStrategy):
+    """
+    Kombinierte Strategie von GannSquareReversal und RainbowMovingAverage
+    """
+    
+    params = (
+        ('indicators', {
+            'GannSquareReversal': {
+                'class': GannSquareReversal,
+                'params': <class 'backtrader.metabase.AutoInfoClass_LineRoot_LineMultiple_LineSeries_LineIterator_DataAccessor_IndicatorBase_Indicator_GannSquareReversal'>
+            },
+            'RainbowMovingAverage': {
+                'class': RainbowMovingAverage,
+                'params': <class 'backtrader.metabase.AutoInfoClass_LineRoot_LineMultiple_LineSeries_LineIterator_DataAccessor_IndicatorBase_Indicator_RainbowMovingAverage'>
+            }
+        }),
+        ('weights', {
+            'GannSquareReversal': 1.0,
+            'RainbowMovingAverage': 1.0
+        })
+    )

@@ -1,0 +1,24 @@
+import backtrader as bt
+from ..base_strategy import FlexibleStrategy
+
+class RandomWalkIndex_DecyclerOscillator_Strategy(FlexibleStrategy):
+    """
+    Kombinierte Strategie von RandomWalkIndex und DecyclerOscillator
+    """
+    
+    params = (
+        ('indicators', {
+            'RandomWalkIndex': {
+                'class': RandomWalkIndex,
+                'params': <class 'backtrader.metabase.AutoInfoClass_LineRoot_LineMultiple_LineSeries_LineIterator_DataAccessor_IndicatorBase_Indicator_RandomWalkIndex'>
+            },
+            'DecyclerOscillator': {
+                'class': DecyclerOscillator,
+                'params': <class 'backtrader.metabase.AutoInfoClass_LineRoot_LineMultiple_LineSeries_LineIterator_DataAccessor_IndicatorBase_Indicator_DecyclerOscillator'>
+            }
+        }),
+        ('weights', {
+            'RandomWalkIndex': 1.0,
+            'DecyclerOscillator': 1.0
+        })
+    )

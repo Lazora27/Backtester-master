@@ -1,0 +1,24 @@
+import backtrader as bt
+from ..base_strategy import FlexibleStrategy
+
+class FibonacciRetracement_SmoothedVolatilityIndicator_Strategy(FlexibleStrategy):
+    """
+    Kombinierte Strategie von FibonacciRetracement und SmoothedVolatilityIndicator
+    """
+    
+    params = (
+        ('indicators', {
+            'FibonacciRetracement': {
+                'class': FibonacciRetracement,
+                'params': <class 'backtrader.metabase.AutoInfoClass_LineRoot_LineMultiple_LineSeries_LineIterator_DataAccessor_IndicatorBase_Indicator_FibonacciRetracement'>
+            },
+            'SmoothedVolatilityIndicator': {
+                'class': SmoothedVolatilityIndicator,
+                'params': <class 'backtrader.metabase.AutoInfoClass_LineRoot_LineMultiple_LineSeries_LineIterator_DataAccessor_IndicatorBase_Indicator_SmoothedVolatilityIndicator'>
+            }
+        }),
+        ('weights', {
+            'FibonacciRetracement': 1.0,
+            'SmoothedVolatilityIndicator': 1.0
+        })
+    )

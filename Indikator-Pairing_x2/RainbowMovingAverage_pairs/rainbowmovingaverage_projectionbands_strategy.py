@@ -1,0 +1,24 @@
+import backtrader as bt
+from ..base_strategy import FlexibleStrategy
+
+class RainbowMovingAverage_ProjectionBands_Strategy(FlexibleStrategy):
+    """
+    Kombinierte Strategie von RainbowMovingAverage und ProjectionBands
+    """
+    
+    params = (
+        ('indicators', {
+            'RainbowMovingAverage': {
+                'class': RainbowMovingAverage,
+                'params': <class 'backtrader.metabase.AutoInfoClass_LineRoot_LineMultiple_LineSeries_LineIterator_DataAccessor_IndicatorBase_Indicator_RainbowMovingAverage'>
+            },
+            'ProjectionBands': {
+                'class': ProjectionBands,
+                'params': <class 'backtrader.metabase.AutoInfoClass_LineRoot_LineMultiple_LineSeries_LineIterator_DataAccessor_IndicatorBase_Indicator_ProjectionBands'>
+            }
+        }),
+        ('weights', {
+            'RainbowMovingAverage': 1.0,
+            'ProjectionBands': 1.0
+        })
+    )

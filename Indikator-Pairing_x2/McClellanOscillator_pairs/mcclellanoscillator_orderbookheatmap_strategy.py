@@ -1,0 +1,24 @@
+import backtrader as bt
+from ..base_strategy import FlexibleStrategy
+
+class McClellanOscillator_OrderBookHeatmap_Strategy(FlexibleStrategy):
+    """
+    Kombinierte Strategie von McClellanOscillator und OrderBookHeatmap
+    """
+    
+    params = (
+        ('indicators', {
+            'McClellanOscillator': {
+                'class': McClellanOscillator,
+                'params': <class 'backtrader.metabase.AutoInfoClass_LineRoot_LineMultiple_LineSeries_LineIterator_DataAccessor_IndicatorBase_Indicator_McClellanOscillator'>
+            },
+            'OrderBookHeatmap': {
+                'class': OrderBookHeatmap,
+                'params': <class 'backtrader.metabase.AutoInfoClass_LineRoot_LineMultiple_LineSeries_LineIterator_DataAccessor_IndicatorBase_Indicator_OrderBookHeatmap'>
+            }
+        }),
+        ('weights', {
+            'McClellanOscillator': 1.0,
+            'OrderBookHeatmap': 1.0
+        })
+    )

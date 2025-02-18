@@ -1,0 +1,24 @@
+import backtrader as bt
+from ..base_strategy import FlexibleStrategy
+
+class FisherTransform_VolumeFlowIndicator_Strategy(FlexibleStrategy):
+    """
+    Kombinierte Strategie von FisherTransform und VolumeFlowIndicator
+    """
+    
+    params = (
+        ('indicators', {
+            'FisherTransform': {
+                'class': FisherTransform,
+                'params': <class 'backtrader.metabase.AutoInfoClass_LineRoot_LineMultiple_LineSeries_LineIterator_DataAccessor_IndicatorBase_Indicator_FisherTransform'>
+            },
+            'VolumeFlowIndicator': {
+                'class': VolumeFlowIndicator,
+                'params': <class 'backtrader.metabase.AutoInfoClass_LineRoot_LineMultiple_LineSeries_LineIterator_DataAccessor_IndicatorBase_Indicator_VolumeFlowIndicator'>
+            }
+        }),
+        ('weights', {
+            'FisherTransform': 1.0,
+            'VolumeFlowIndicator': 1.0
+        })
+    )

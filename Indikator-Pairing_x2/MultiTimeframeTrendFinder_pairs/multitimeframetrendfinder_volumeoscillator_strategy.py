@@ -1,0 +1,24 @@
+import backtrader as bt
+from ..base_strategy import FlexibleStrategy
+
+class MultiTimeframeTrendFinder_VolumeOscillator_Strategy(FlexibleStrategy):
+    """
+    Kombinierte Strategie von MultiTimeframeTrendFinder und VolumeOscillator
+    """
+    
+    params = (
+        ('indicators', {
+            'MultiTimeframeTrendFinder': {
+                'class': MultiTimeframeTrendFinder,
+                'params': <class 'backtrader.metabase.AutoInfoClass_LineRoot_LineMultiple_LineSeries_LineIterator_DataAccessor_IndicatorBase_Indicator_MultiTimeframeTrendFinder'>
+            },
+            'VolumeOscillator': {
+                'class': VolumeOscillator,
+                'params': <class 'backtrader.metabase.AutoInfoClass_LineRoot_LineMultiple_LineSeries_LineIterator_DataAccessor_IndicatorBase_Indicator_VolumeOscillator'>
+            }
+        }),
+        ('weights', {
+            'MultiTimeframeTrendFinder': 1.0,
+            'VolumeOscillator': 1.0
+        })
+    )

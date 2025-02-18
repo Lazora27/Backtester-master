@@ -1,0 +1,122 @@
+[
+  {
+    "strategy": "MACDRSIStrategy",
+    "initial_capital": 100000.0,
+    "final_value": 100051.44941999999,
+    "total_return": 0.05144941999999375,
+    "sharpe_ratio": -37.87313015385294,
+    "max_drawdown": 0.44550630193379803,
+    "max_drawdown_length": 4242,
+    "total_trades": 1,
+    "win_rate": 100.0,
+    "total_pnl": 51.449420000000316,
+    "avg_pnl": 51.449420000000316,
+    "avg_trade_length": 2117.0,
+    "monthly_returns": [
+      {
+        "date": "2023-08",
+        "return": -100.0
+      },
+      {
+        "date": "2023-09",
+        "return": -100.0
+      },
+      {
+        "date": "2023-10",
+        "return": -100.0
+      },
+      {
+        "date": "2023-11",
+        "return": -100.0
+      },
+      {
+        "date": "2023-12",
+        "return": -100.0
+      },
+      {
+        "date": "2024-01",
+        "return": -100.0
+      }
+    ]
+  },
+  {
+    "strategy": "BollingerStochStrategy",
+    "initial_capital": 100000.0,
+    "final_value": 99876.09054000002,
+    "total_return": -0.12390945999998237,
+    "sharpe_ratio": -17.39365523704743,
+    "max_drawdown": 0.6611872179086296,
+    "max_drawdown_length": 4109,
+    "total_trades": 57,
+    "win_rate": 56.14035087719298,
+    "total_pnl": -94.30295999999542,
+    "avg_pnl": -1.6839814285713468,
+    "avg_trade_length": 56.75,
+    "monthly_returns": [
+      {
+        "date": "2023-08",
+        "return": -99.96909892464669
+      },
+      {
+        "date": "2023-09",
+        "return": -100.2086925972093
+      },
+      {
+        "date": "2023-10",
+        "return": -100.10254482748184
+      },
+      {
+        "date": "2023-11",
+        "return": -99.8863625738448
+      },
+      {
+        "date": "2023-12",
+        "return": -99.99931905774552
+      },
+      {
+        "date": "2024-01",
+        "return": -100.00090110844862
+      }
+    ]
+  },
+  {
+    "strategy": "RSIATRStrategy",
+    "initial_capital": 100000.0,
+    "final_value": 100095.57892,
+    "total_return": 0.09557892000000567,
+    "sharpe_ratio": -19.925116123930707,
+    "max_drawdown": 0.4422156348578298,
+    "max_drawdown_length": 3140,
+    "total_trades": 79,
+    "win_rate": 34.177215189873415,
+    "total_pnl": 95.57892000001908,
+    "avg_pnl": 1.2098597468356846,
+    "avg_trade_length": 20.911392405063292,
+    "monthly_returns": [
+      {
+        "date": "2023-08",
+        "return": -100.03358304175984
+      },
+      {
+        "date": "2023-09",
+        "return": -100.08470684183757
+      },
+      {
+        "date": "2023-10",
+        "return": -100.12282234050969
+      },
+      {
+        "date": "2023-11",
+        "return": -99.97305787085658
+      },
+      {
+        "date": "2023-12",
+        "return": -100.06262114124067
+      },
+      {
+        "date": "2024-01",
+        "return": -100.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+import backtrader as bt
+from ..base_strategy import FlexibleStrategy
+
+class OrderFlowCumulativeDelta_SymmetricalTriangle_Strategy(FlexibleStrategy):
+    """
+    Kombinierte Strategie von OrderFlowCumulativeDelta und SymmetricalTriangle
+    """
+    
+    params = (
+        ('indicators', {
+            'OrderFlowCumulativeDelta': {
+                'class': OrderFlowCumulativeDelta,
+                'params': <class 'backtrader.metabase.AutoInfoClass_LineRoot_LineMultiple_LineSeries_LineIterator_DataAccessor_IndicatorBase_Indicator_OrderFlowCumulativeDelta'>
+            },
+            'SymmetricalTriangle': {
+                'class': SymmetricalTriangle,
+                'params': <class 'backtrader.metabase.AutoInfoClass_LineRoot_LineMultiple_LineSeries_LineIterator_DataAccessor_IndicatorBase_Indicator_SymmetricalTriangle'>
+            }
+        }),
+        ('weights', {
+            'OrderFlowCumulativeDelta': 1.0,
+            'SymmetricalTriangle': 1.0
+        })
+    )

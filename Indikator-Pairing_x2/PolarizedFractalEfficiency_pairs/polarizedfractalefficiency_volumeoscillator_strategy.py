@@ -1,0 +1,24 @@
+import backtrader as bt
+from ..base_strategy import FlexibleStrategy
+
+class PolarizedFractalEfficiency_VolumeOscillator_Strategy(FlexibleStrategy):
+    """
+    Kombinierte Strategie von PolarizedFractalEfficiency und VolumeOscillator
+    """
+    
+    params = (
+        ('indicators', {
+            'PolarizedFractalEfficiency': {
+                'class': PolarizedFractalEfficiency,
+                'params': <class 'backtrader.metabase.AutoInfoClass_LineRoot_LineMultiple_LineSeries_LineIterator_DataAccessor_IndicatorBase_Indicator_PolarizedFractalEfficiency'>
+            },
+            'VolumeOscillator': {
+                'class': VolumeOscillator,
+                'params': <class 'backtrader.metabase.AutoInfoClass_LineRoot_LineMultiple_LineSeries_LineIterator_DataAccessor_IndicatorBase_Indicator_VolumeOscillator'>
+            }
+        }),
+        ('weights', {
+            'PolarizedFractalEfficiency': 1.0,
+            'VolumeOscillator': 1.0
+        })
+    )

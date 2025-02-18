@@ -1,0 +1,13 @@
+backtrader>=1.9.76.123
+matplotlib>=3.3.0
+pandas>=1.0.0
+numpy>=1.19.0
+pytz>=2020.1
+python-dateutil>=2.8.1
+requests>=2.24.0
+PyQt6>=6.4.0
+# Optional packages that require additional setup:
+# ta-lib>=0.4.19  # Requires C++ build tools
+# For live trading, you'll need specific broker APIs
+# Entferne veraltete Pakete
+# ibpy2 und oandapy werden nicht mehr unterstützt
